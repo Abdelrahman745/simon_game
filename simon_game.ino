@@ -18,7 +18,7 @@ void setup() {
   setupPins();
   askDifficulty();
   addNewStep();
-  randomSeed(analogRead(A0))l;
+  randomSeed(analogRead(A0));
 }
 
 void loop() {
